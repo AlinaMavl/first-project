@@ -1,0 +1,47 @@
+body,h1,h2,h3,p,a{
+    margin:0;
+  }
+  
+  body {
+    color: #2f80ed;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-style:normal;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .image{
+    width:520px;
+    height: 190px;
+    margin:110px auto 0 auto;
+    text-align: center;
+    display:block;
+  }
+  
+  .header{
+    width: 420px;
+    font-size:120px;
+    margin: 10px auto 22px auto;
+    padding:10 auto;
+    text-align: center;
+  }
+  /* in HEADER MARGIN_BOT MUST BE 280PX*/
+  
+  .text{
+    font-size: 17px;
+    padding: 0 70px;
+    text-align: center;
+    display:none;
+    
+  }
+  .header:hover~.text{
+    position:relative;
+    display:flex;
+    
+  }
+  .footer{
+    font-size:17px;
+    margin:280px auto 30px auto;
+    text-align: center;
+  }
